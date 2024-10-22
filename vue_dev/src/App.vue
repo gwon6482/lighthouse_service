@@ -11,6 +11,8 @@ export default {
     Header
   }
 }
+
+// 주석추가
 </script>
 
 <style lang="scss">
