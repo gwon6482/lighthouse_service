@@ -1,8 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from './Home'
-import Page1 from './Page1'
-import Page2 from './Page2'
-import Page3 from './Page3'
+import Home from '../views/Home.vue'
+import Page1 from '../views/Page1.vue'
+import Page2 from '../views/Page2.vue'
+import Page3 from '../views/Page3.vue'
 
 export default createRouter({
   history: createWebHashHistory(),
