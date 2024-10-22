@@ -19,6 +19,8 @@ export default {
     }
   }
 }
+
+// 주석추가
 </script>
 
 <style>
