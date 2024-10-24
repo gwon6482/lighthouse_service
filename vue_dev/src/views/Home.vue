@@ -31,25 +31,21 @@
 
 body {
   width: 430px;
-  height: 932px;
   margin: 0 auto;
   background-color: #FDFAEA;
   .inner {
     width: 382px;
     margin: 0 auto;
-    // background-color: orange;
     text-align: center;
     .description {
       width: 330px;
-      margin: 0 auto;
+      margin: 15vh auto 0;
       h3 {
         font-size: 30px;
-        margin-top: 125px;
       }
       .logo {
         width: 191px;
         // height: 227px;
-        // background-color: royalblue;
         margin: 30px auto 0;
       }
       h5 {
@@ -69,6 +65,7 @@ body {
         border-radius: 8px;
         font-size: 18px;
         color: #91929F;
+        outline: none;
         padding-left: 26px;
         margin-top: 24px;
       }
@@ -82,17 +79,27 @@ body {
         font-size: 24px;
         font-weight: 600;
         color: #FFFFFF;
+        border: none;
+        transition: 0.3s;
+      }
+      .btn.btn-primary:hover {
+        background-color: darken(#FFD100, 5%);
       }
       p {
         margin-top: 16px;
         span {
           font-size: 14px;
           color: #91929F;
+          display: inline-block;
+          margin-right: 4px;
         }
         .auth-req {
           font-size: 14px;
           color: #4C4C57;
           text-decoration: none;
+        }
+        .auth-req:hover {
+          color: lighten(#4C4C57, 20%);
         }
       }
     }
