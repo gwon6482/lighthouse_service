@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use('/api/auth-code', authCodeRoutes);
-app.use('/', indexRouter);
+app.use('/api', indexRouter);
 
 
 
