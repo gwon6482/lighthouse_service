@@ -17,7 +17,7 @@ COPY . .
 COPY .env.example .env
 
 # 앱이 3000번 포트를 사용한다고 가정합니다
-EXPOSE 3000
+EXPOSE 3001
 
 # 앱 실행
 CMD [ "npm", "start" ]
