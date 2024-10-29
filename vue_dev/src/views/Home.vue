@@ -10,9 +10,7 @@
     <div class="auth">
       <input type="text" placeholder="인증번호" class="input-auth">
       <router-link to="/Page1">
-        <button class="btn btn-primary">
-          인증번호로 로그인
-        </button>
+        <BtnLarge />
       </router-link>
       <p>
         <span>사전체험을 하고 싶으신가요?</span> 
@@ -24,6 +22,16 @@
 
   </div>
 </template>
+
+<script>
+import BtnLarge from '~/components/BtnLarge'
+
+export default {
+  components: {
+    BtnLarge
+  }
+}
+</script>
 
 
 <style lang="scss">
@@ -68,22 +76,6 @@ body {
         outline: none;
         padding-left: 26px;
         margin-top: 24px;
-      }
-      .btn.btn-primary {
-        width: 382px;
-        height: 57px;
-        margin-top: 50px;
-        background-color: #FFD100;
-        border-radius: 8px;
-        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
-        font-size: 24px;
-        font-weight: 600;
-        color: #FFFFFF;
-        border: none;
-        transition: 0.3s;
-      }
-      .btn.btn-primary:hover {
-        background-color: darken(#FFD100, 5%);
       }
       p {
         margin-top: 16px;
